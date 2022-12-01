@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    min-width: 300px;
+  
+}
+
+.homePrincipal {
+    width: 100vw !important;
+    align-items: center !important;
+}
+
+@media (max-width: 1024px ) {
+    .home {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.home {
+    text-align: center;
+    color: #f8f8f8;
+    background: #f3efef no-repeat 0px 0px;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.home h1 {
+    margin: 0;
+    color: orange;
+    font-size: 3rem;
+}
+.home p {
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+.divMessagem {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px black;
+    margin-left: 30px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.divMessagem label {
+    color: orange;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.divMessagem input {
+    width: calc(100% - 13px);
+    padding: 10px 5px;
+    margin: 15px 0 5px;
+    font-size: 15px;
+}
+.divMessagem button {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background: orange;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #cb8609;
+}
+.divMessagem button:hover {
+    background: #cb8609;
+}
+.divMessagem .textShadow {
+      text-shadow: 2px 2px 3px rgb(0 0 0 / 60%);
+}
+
+
+
+#menu {
+    background: #262626 url(../assets/logo.png) no-repeat 40% 5px;
+    min-height: 100vh;
+    width: 18%;
+    background-size: 90%;
+}
+#menu hr {
+    margin: 90% 5% 0;
+    border-bottom: 2px solid orange;
+}
+#menu ul {
+    position: static;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+#menu ul li {
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    border-bottom: 1px solid orange;
+    width: 90%;
+    text-align: center;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li button {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    background: orange;
+    border-radius: 15px;
+    color: white;
+}
+.openInfoMenu {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#content {
+    min-height: 100vh;
+    width: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#content .criarCarga {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -5px black;
+    border-radius: 10px;
+}
+
+#content .criarCarga label {
+    color: black;
+    font-weight: 600;
+}
+
+#content .criarCarga select {
+    padding: 10px 5px;
+    width: 100%;
+    font-size: 15px;
+    margin: 15px 0 5px;
+}
+
+#content .criarCarga input {
+    width: calc(100% - 13px);
+    padding: 10px 5px;
+    margin: 15px 0 5px;
+    font-size: 15px;
+}
+#content .criarCarga button {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background: orange;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #cb8609;
+}
+
+#content #dashboard h2 {
+    color: orange;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#content #dashboard label {
+    font-size: 1rem;
+    font-weight: 700;
+    color: red;
+}
+#content #dashboard tr th {
+    color: black;
+    font-size: 1.5rem;
+}
+#content #dashboard span {
+    color: white;
+    font-size: 1rem;
+}
+
+#loginDiv {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginDiv form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px 0px black;
+    padding: 30px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+#loginDiv form input {
+    max-width: 500px;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#loginDiv form button {
+    max-width: 500px;
+    width: 100%;
+    height: 30px;
+    margin: 30px 0 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background: orange;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #cb8609;
+}
+
+.paginaRastreio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #c1c1c1;
+}
+
+.rastreioCarga {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px black;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    background: #fbfbfb;
+}
+
+.rastreioCarga label {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.rastreioCarga span {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.botaoMenu {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 201px;
+    background: transparent ;
+}
+
+
+#listaRotas {
+    width: 90%;
+}
+#listaRotas h2 {
+    color: orange;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#listaRotas label {
+    font-size: 1rem;
+    font-weight: 700;
+    color: red;
+}
+#listaRotas tr th {
+    color: black;
+    font-size: 1.5rem;
+}
+#listaRotas span {
+    color: white;
+    font-size: 1rem;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table li {
+    list-style: none;
+}
+
+table td, th {
+    border: 1px solid #9d9d9d;
+    text-align: left;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #dddddd;
+}
