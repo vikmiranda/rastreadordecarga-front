@@ -112,7 +112,7 @@ export default function Index({ rotas }) {
 
       </div>
 
-      <script type="text/javascript" src="../../assets/menu.js"></script>
+      <script type="text/javascript" src="../../assets/menu.js"> async</script>
     </div>
   )
 }
