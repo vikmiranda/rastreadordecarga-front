@@ -13,6 +13,7 @@ Front-end:
 - HTML5
 - CSS
 - Javascript
+- Next.js
 
 Banco de Dados:
 - MongoDB Atlas
