@@ -61,6 +61,9 @@ export default function Index({ cargas }) {
         cidade_origem: cidade_origem.value,
         cidade_destino: cidade_destino.value,
         data_limite: date.value
+      }).then(function(response){
+        let cod_rastreio = response.data.cod_rastreamento
+        alert(cod_rastreio)
       })
     } catch (error) {
       console.log(error)
