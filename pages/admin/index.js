@@ -34,7 +34,8 @@ export default function Index({ cargas }) {
     const menu = document.querySelector('.menu-lateral');
 
     botaoMenu.addEventListener('click', () => {
-      menu.classList.toggle('menu-lateral--ativo')
+      botaoMenu.classList.toggle('botaoMenu--ativo');
+      menu.classList.toggle('menu-lateral--ativo');
     })
   }
 
@@ -129,9 +130,7 @@ export default function Index({ cargas }) {
 
   return (
     <div className="home">
-      <button className="botaoMenu" aria-label="Menu" onClick={menuButton}>
-        <i></i>
-      </button>
+      <button className="botaoMenu" aria-label="Menu" onClick={menuButton}>Menu</button>
       <div id="menu" className="menu-lateral">
         <hr />
         <ul>
