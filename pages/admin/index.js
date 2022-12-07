@@ -177,7 +177,7 @@ export default function Index({ cargas }) {
             </select>
             <label>Data de Chegada Limite:</label>
             <input type="date" name="date" placeholder="Data para entrega" />
-            <button type="submit">Cadastrar Carga</button>
+            <button id="cadastrarCarga" type="submit">Cadastrar Carga</button>
           </form>
         </div>
 
@@ -334,7 +334,7 @@ export default function Index({ cargas }) {
               <option value="Receber">Receber</option>
               <option value="Carregar">Carregar</option>
             </select>
-            <button type="submit">Salvar</button>
+            <button id="cargaAtualizada" type="submit">Salvar</button>
           </form>
         </div>
       </div>
