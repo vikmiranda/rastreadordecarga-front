@@ -60,7 +60,7 @@ export default function Index({ cargas }) {
       await api.post('', {
         cidade_origem: cidade_origem.value,
         cidade_destino: cidade_destino.value,
-        date: date.value
+        data_limite: date.value
       })
     } catch (error) {
       console.log(error)
